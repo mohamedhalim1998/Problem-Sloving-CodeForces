@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Code Forces A" />
+        <option value="Class" />
+        <option value="Code Forces B" />
+        <option value="Code Forces C" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h2Nph18Ii2YHACOyahNUKUG8ct" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last.edited.regexp" value="ABABABBAB????????????" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.CF1335_D2_C">
+    <configuration name="CF1335_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF1335_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF313_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF313_D2_B" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF371_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF371_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF588_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF588_D2_B" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF82_D2_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF82_D2_A" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CF82_D2_A" />
+      <item itemvalue="Application.CF588_D2_B" />
+      <item itemvalue="Application.CF371_D2_C" />
+      <item itemvalue="Application.CF313_D2_B" />
+      <item itemvalue="Application.CF1335_D2_C" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CF1335_D2_C" />
+        <item itemvalue="Application.CF313_D2_B" />
+        <item itemvalue="Application.CF371_D2_C" />
+        <item itemvalue="Application.CF588_D2_B" />
+        <item itemvalue="Application.CF82_D2_A" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="" />
+      <created>1599205414241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599205414241</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="24" width="800" height="672" key="#Project_Structure" timestamp="1602908029707">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="278" y="24" width="800" height="672" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602908029707" />
+    <state x="311" y="95" width="734" height="531" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1602908125201">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="311" y="95" width="734" height="531" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602908125201" />
+    <state x="491" y="82" width="519" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1602932129720">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="82" width="519" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602932129720" />
+    <state x="531" y="255" width="293" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1599725216552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="255" width="293" height="211" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1599725216552" />
+    <state width="1324" height="278" key="GridCell.Tab.0.bottom" timestamp="1603021227962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603021227962" />
+    <state width="1324" height="278" key="GridCell.Tab.0.center" timestamp="1603021227961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603021227961" />
+    <state width="1324" height="278" key="GridCell.Tab.0.left" timestamp="1603021227961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603021227961" />
+    <state width="1324" height="278" key="GridCell.Tab.0.right" timestamp="1603021227962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603021227962" />
+    <state width="1324" height="278" key="GridCell.Tab.1.bottom" timestamp="1603021227963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603021227963" />
+    <state width="1324" height="278" key="GridCell.Tab.1.center" timestamp="1603021227962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603021227962" />
+    <state width="1324" height="278" key="GridCell.Tab.1.left" timestamp="1603021227962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603021227962" />
+    <state width="1324" height="278" key="GridCell.Tab.1.right" timestamp="1603021227963">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603021227963" />
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1603016293241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603016293241" />
+    <state x="347" y="5" width="662" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602909235372">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="347" y="5" width="662" height="710" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1602909235372" />
+    <state x="244" y="102" width="867" height="516" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601915866997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="244" y="102" width="867" height="516" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1601915866997" />
+    <state x="347" y="160" key="run.anything.popup" timestamp="1602524785656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="347" y="160" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602524785656" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603018253767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603018253767" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF505_D2_B.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF584_D2_B.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF716_D2_B.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF716_D2_B.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF716_D2_B.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF141_D2_B.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF369_D2_B.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF791_D2_B.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF550_D2_B.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF602_D2_B.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF614_D2_B.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF510_D2_B.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF510_D2_B.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF510_D2_B.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF510_D2_B.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF337_D2_B.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF621_D2_B.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF580_D2_B.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1009_D12_B.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1009_D12_B.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1030_D12_B.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1237_D12_B.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF435_D2_B.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/C/CF416_D2_C.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/C/CF492_D2_C.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/C/CF978_D2_C.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A/CF219_D2_A.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1020_D2_B.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF1195_D2_B.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF371_D2_B.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A/CF1253_D2_A.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A/CF1221_D2_A.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF706_D2_B.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF82_D2_A.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF588_D2_B.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF371_D2_C.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF313_D2_B.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF313_D2_B.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
