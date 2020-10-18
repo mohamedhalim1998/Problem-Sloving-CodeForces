@@ -1,3 +1,5 @@
+package B;
+
 import java.util.Scanner;
 
 public class CF706_D2_B {

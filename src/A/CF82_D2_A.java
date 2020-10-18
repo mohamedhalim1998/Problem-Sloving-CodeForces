@@ -1,3 +1,5 @@
+package A;
+
 import java.util.Scanner;
 
 public class CF82_D2_A {
