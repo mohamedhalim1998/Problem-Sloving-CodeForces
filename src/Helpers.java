@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -20,6 +21,43 @@ public class Helpers {
         System.out.println();
     }
 
+    public static void printArrayInLine(Object[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    public static int log2(int N) {
+
+        return (int) (Math.log(N) / Math.log(2));
+    }
+
+    public static char[] sort(char[] a) {
+        if (a.length <= 1) {
+            return a;
+        }
+        int half = a.length / 2;
+        char[] first = Arrays.copyOfRange(a, 0, half);
+        char[] second = Arrays.copyOfRange(a, half, a.length);
+
+        return merge(sort(first), sort(second));
+    }
+
+    private static char[] merge(char[] first, char[] second) {
+        char[] res = new char[first.length + second.length];
+        for (int i = 0, j = 0, k = 0; i < res.length; i++) {
+            if (j < first.length && k < second.length) {
+                res[i] = first[j] < second[k] ? first[j++] : second[k++];
+            } else if (j < first.length) {
+                res[i] = first[j++];
+            } else {
+                res[i] = second[k++];
+            }
+        }
+        return res;
+    }
+
     static int lessThanSearch(Integer[] arr, int x) {
         int start = 0, end = arr.length - 1;
 
@@ -36,6 +74,7 @@ public class Helpers {
         }
         return ans;
     }
+
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
