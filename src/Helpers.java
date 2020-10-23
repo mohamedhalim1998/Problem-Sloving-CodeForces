@@ -15,15 +15,15 @@ public class Helpers {
     }
 
     public static void printArrayInLine(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (int value : arr) {
+            System.out.print(value + " ");
         }
         System.out.println();
     }
 
     public static void printArrayInLine(Object[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        for (Object o : arr) {
+            System.out.print(o + " ");
         }
         System.out.println();
     }
@@ -72,6 +72,15 @@ public class Helpers {
                 start = mid + 1;
             }
         }
+        return ans;
+    }
+
+    public static long nCr(long n, long r) {
+        long ans = 1;
+        for (int k = 0; k < r; k++) {
+            ans = ans * (n - k) / (k + 1);
+        }
+
         return ans;
     }
 
