@@ -84,6 +84,17 @@ public class Helpers {
         return ans;
     }
 
+    static int gcd(int n1, int n2) {
+        if (n2 == 0) {
+            return n1;
+        }
+        return gcd(n2, n1 % n2);
+    }
+
+    static int lcm(int a, int b) {
+        return (a * b) / gcd(a, b);
+    }
+
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
