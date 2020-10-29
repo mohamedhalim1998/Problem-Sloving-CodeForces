@@ -33,6 +33,32 @@ public class Helpers {
         return (int) (Math.log(N) / Math.log(2));
     }
 
+
+    public static int[] sort(int[] a) {
+        if (a.length <= 1) {
+            return a;
+        }
+        int half = a.length / 2;
+        int[] first = Arrays.copyOfRange(a, 0, half);
+        int[] second = Arrays.copyOfRange(a, half, a.length);
+
+        return merge(sort(first), sort(second));
+    }
+
+    private static int[] merge(int[] first, int[] second) {
+        int[] res = new int[first.length + second.length];
+        for (int i = 0, j = 0, k = 0; i < res.length; i++) {
+            if (j < first.length && k < second.length) {
+                res[i] = first[j] < second[k] ? first[j++] : second[k++];
+            } else if (j < first.length) {
+                res[i] = first[j++];
+            } else {
+                res[i] = second[k++];
+            }
+        }
+        return res;
+    }
+
     public static char[] sort(char[] a) {
         if (a.length <= 1) {
             return a;
