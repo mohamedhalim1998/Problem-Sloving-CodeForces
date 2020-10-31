@@ -2,7 +2,7 @@ package C;
 
 import java.util.Scanner;
 
-public class CF236_D2_C {
+public class CF402_D2_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
