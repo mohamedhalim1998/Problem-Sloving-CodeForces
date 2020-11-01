@@ -121,6 +121,15 @@ public class Helpers {
         return (a * b) / gcd(a, b);
     }
 
+    static boolean isPrime(int m) {
+        for (int i = 2; i * i < m; i++) {
+            if (m % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
