@@ -122,7 +122,7 @@ public class Helpers {
     }
 
     static boolean isPrime(int m) {
-        for (int i = 2; i * i < m; i++) {
+        for (int i = 2; i * i <= m; i++) {
             if (m % i == 0) {
                 return false;
             }
