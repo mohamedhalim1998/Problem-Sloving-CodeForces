@@ -1,9 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Helpers {
     public static int[] nextArray(Scanner scanner, int n) {
@@ -128,6 +126,21 @@ public class Helpers {
             }
         }
         return true;
+    }
+
+    static ArrayList<Long> divisors(long n) {
+        ArrayList<Long> list = new ArrayList<>();
+        for (long i = 1; i * i <= n; i++) {
+            if (n % i == 0) {
+                if (n / i == i) {
+                    list.add(i);
+                } else {
+                    list.add(i);
+                    list.add(n / i);
+                }
+            }
+        }
+        return list;
     }
 
     static class FastReader {
