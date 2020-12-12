@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Helpers {
+
     public static int[] nextArray(Scanner scanner, int n) {
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
@@ -142,6 +143,14 @@ public class Helpers {
         }
         return list;
     }
+    int[] neighbors = {0, 1,
+            0, -1,
+            1, 0,
+            -1, 0,
+            -1, -1,
+            -1, 1,
+            1, -1,
+            1, 1};
 
     static class FastReader {
         BufferedReader br;
