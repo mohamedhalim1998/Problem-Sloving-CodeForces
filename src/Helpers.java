@@ -143,6 +143,7 @@ public class Helpers {
         }
         return list;
     }
+
     int[] neighbors = {0, 1,
             0, -1,
             1, 0,
@@ -151,6 +152,15 @@ public class Helpers {
             -1, 1,
             1, -1,
             1, 1};
+
+    static void bitmask(int n) {
+        for (int i = 0; i < (1 << n); i++) {
+            for (int j = 0; j < n; j++) {
+                if ((i & (1 << j)) != 0) {
+                }
+            }
+        }
+    }
 
     static class FastReader {
         BufferedReader br;
