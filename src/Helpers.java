@@ -232,5 +232,19 @@ public class Helpers {
             }
             return str;
         }
+        int[] nextArray(int n) {
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextInt();
+            }
+            return arr;
+        }
+        Integer[] nextArray(int n, boolean object) {
+            Integer[] arr = new Integer[n];
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextInt();
+            }
+            return arr;
+        }
     }
 }
