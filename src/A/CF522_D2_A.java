@@ -1,61 +1,27 @@
-package B;
+package A;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
-public class CF1174_D2_B {
+public class CF522_D2_A {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
         int n = scanner.nextInt();
-        int[] arr = scanner.nextArray(n);
-        boolean odd = false;
-        boolean even = false;
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Polycarp".toLowerCase(), 1);
         for (int i = 0; i < n; i++) {
-            if (arr[i] % 2 == 0) {
-                even = true;
-            } else {
-                odd = true;
-            }
+            String[] post = scanner.nextLine().split(" ");
+            map.put(post[0].toLowerCase(), map.getOrDefault(post[2].toLowerCase(), 0) + 1);
         }
-        if (odd && even)
-            sort(arr);
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr[i] + " ");
+        int max = 1;
+        for (Map.Entry<String,Integer> e : map.entrySet()) {
+            max = Math.max(max, e.getValue());
         }
-        System.out.println();
-    }
-
-
-    private static void sort(int[] arr) {
-        int[] aux = new int[arr.length];
-        sortHelper(arr, aux, 0, arr.length - 1);
-    }
-
-    private static void sortHelper(int[] a, int[] aux, int lo, int hi) {
-        if (hi <= lo) return;
-        int mid = lo + (hi - lo) / 2;
-        sortHelper(a, aux, lo, mid);
-        sortHelper(a, aux, mid + 1, hi);
-        merge(a, aux, lo, mid, hi);
-    }
-
-    private static void merge(int[] a, int[] aux, int lo, int mid, int hi) {
-        for (int k = lo; k <= hi; k++)
-            aux[k] = a[k];
-        int i = lo, j = mid + 1;
-        for (int k = lo; k <= hi; k++) {
-            if (i > mid) {
-                a[k] = aux[j++];
-            } else if (j > hi) {
-                a[k] = aux[i++];
-            } else if (aux[j] < aux[i]) {
-                a[k] = aux[j++];
-            } else {
-                a[k] = aux[i++];
-            }
-        }
+        System.out.println(max);
     }
 
     static class FastScanner {
