@@ -3,54 +3,38 @@ package B;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class CF1366_D2_B {
+public class CF508_D2_B {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
-        int t = scanner.nextInt();
-        StringBuilder out = new StringBuilder();
-        for (int i = 0; i < t; i++) {
-            solve(scanner, out);
-        }
-        System.out.println(out);
-
-    }
-
-    private static void solve(FastScanner scanner, StringBuilder out) {
-        int n = scanner.nextInt();
-        int x = scanner.nextInt();
-        int m = scanner.nextInt();
-        int l = scanner.nextInt();
-        int r = scanner.nextInt();
-        int k = 0;
-        boolean found = false;
-        if (x <= r && x >= l) {
-            found = true;
-        }
-        for (int i = 1; i < m; i++) {
-            int ln = scanner.nextInt();
-            int rn = scanner.nextInt();
-            if (found) {
-                if (l <= rn && ln <= r) {
-                    l = Math.min(l, ln);
-                    r = Math.max(r, rn);
-                }
-            } else {
-                if (x <= rn && x >= ln) {
-                    found = true;
-                    l = ln;
-                    r = rn;
+        String s = scanner.next();
+        int n = Integer.MAX_VALUE;
+        int index = -1;
+        char[] arr = s.toCharArray();
+        for (int i = s.length() - 1; i >= 0; i--) {
+            int d = Character.getNumericValue(arr[i]);
+            int a = Character.getNumericValue(arr[s.length() - 1]);
+            if (d % 2 == 0) {
+                if (n == Integer.MAX_VALUE) {
+                    n = d;
+                    index = i;
+                } else {
+                    if(d < a){
+                        n = d;
+                        index = i;
+                    }
                 }
             }
         }
-        if(!found){
-            out.append("1\n");
-            return;
+        if (n == Integer.MAX_VALUE) {
+            System.out.println(-1);
+        } else {
+            char temp = arr[index];
+            arr[index] = arr[s.length() - 1];
+            arr[s.length() - 1] = temp;
+            System.out.println(String.valueOf(arr));
         }
-        k = r - l + 1;
-        out.append(k).append('\n');
     }
 
     static class FastScanner {
