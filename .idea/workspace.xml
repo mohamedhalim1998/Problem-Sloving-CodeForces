@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CF1476_D2_B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CF1037_D2_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C/CF1037_D2_C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
         <option value="CF Fast IN" />
         <option value="Class" />
         <option value="CF D2 D" />
-        <option value="CF D2 B" />
         <option value="CF D2 A" />
         <option value="CF D2 C" />
+        <option value="CF D2 B" />
       </list>
     </option>
   </component>
@@ -54,7 +54,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1037_D2_C">
+  <component name="RunManager" selected="Application.CF1476_D2_B">
     <configuration name="CF1037_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF1037_D2_C" />
       <module name="Junior Sheet" />
@@ -83,36 +83,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scratch.kts" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script" temporary="true" nameIsGenerated="true">
+    <configuration name="CF1476_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B.CF1476_D2_B" />
       <module name="Junior Sheet" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.kts" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,15 +95,15 @@
       <item itemvalue="Application.CF1470_D1_A" />
       <item itemvalue="Application.CF1203_D2_C" />
       <item itemvalue="Application.CF1037_D2_C" />
-      <item itemvalue="Kotlin script.scratch.kts" />
+      <item itemvalue="Application.CF1476_D2_B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1476_D2_B" />
         <item itemvalue="Application.CF1037_D2_C" />
         <item itemvalue="Application.CF1203_D2_C" />
         <item itemvalue="Application.CF1470_D1_A" />
         <item itemvalue="Application.CF1285_D2_B" />
-        <item itemvalue="Kotlin script.scratch.kts" />
       </list>
     </recent_temporary>
   </component>
@@ -144,13 +117,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599205414241</updated>
-    </task>
-    <task id="LOCAL-00045" summary="UPDATE: 3/1/2021">
-      <created>1609664574619</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1609664574619</updated>
     </task>
     <task id="LOCAL-00046" summary="UPDATE: 4/1/2021">
       <created>1609784587673</created>
@@ -488,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615322414068</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="UPDATE: 9/3/2021">
+      <created>1615324503613</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1615324503613</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,38 +538,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="270" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1615107689274" />
-    <state width="1324" height="286" key="GridCell.Tab.0.bottom" timestamp="1615198345354">
+    <state width="1324" height="220" key="GridCell.Tab.0.bottom" timestamp="1615327009751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="286" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615198345354" />
-    <state width="1324" height="286" key="GridCell.Tab.0.center" timestamp="1615198345352">
+    <state width="1324" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615327009751" />
+    <state width="1324" height="220" key="GridCell.Tab.0.center" timestamp="1615327009750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="286" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615198345352" />
-    <state width="1324" height="286" key="GridCell.Tab.0.left" timestamp="1615198345351">
+    <state width="1324" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615327009750" />
+    <state width="1324" height="220" key="GridCell.Tab.0.left" timestamp="1615327009750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="286" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615198345351" />
-    <state width="1324" height="286" key="GridCell.Tab.0.right" timestamp="1615198345353">
+    <state width="1324" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615327009750" />
+    <state width="1324" height="220" key="GridCell.Tab.0.right" timestamp="1615327009751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="286" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615198345353" />
-    <state width="1324" height="220" key="GridCell.Tab.1.bottom" timestamp="1615198345346">
+    <state width="1324" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615327009751" />
+    <state width="1324" height="220" key="GridCell.Tab.1.bottom" timestamp="1615327009752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615198345346" />
-    <state width="1324" height="220" key="GridCell.Tab.1.center" timestamp="1615198345345">
+    <state width="1324" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615327009752" />
+    <state width="1324" height="220" key="GridCell.Tab.1.center" timestamp="1615327009751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615198345345" />
-    <state width="1324" height="220" key="GridCell.Tab.1.left" timestamp="1615198345345">
+    <state width="1324" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615327009751" />
+    <state width="1324" height="220" key="GridCell.Tab.1.left" timestamp="1615327009751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615198345345" />
-    <state width="1324" height="220" key="GridCell.Tab.1.right" timestamp="1615198345345">
+    <state width="1324" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615327009751" />
+    <state width="1324" height="220" key="GridCell.Tab.1.right" timestamp="1615327009752">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615198345345" />
+    <state width="1324" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615327009752" />
     <state x="187" y="0" key="SettingsEditor" timestamp="1612680426382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -609,10 +582,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="100" y="99" width="1166" height="528" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1612680263347" />
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1615322391902">
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1615364557458">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615322391902" />
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615364557458" />
     <state x="99" y="0" width="1157" height="723" key="new project wizard" timestamp="1607879266857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -625,10 +598,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="347" y="160" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614854969800" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615108155781">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1615324757310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615108155781" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1615324757310" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1222,6 +1195,16 @@
           <url>file://$PROJECT_DIR$/src/Helpers.java</url>
           <line>103</line>
           <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF1476_D2_B.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF1476_D2_B.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/C/CF131_D2_C.java</url>
