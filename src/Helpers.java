@@ -247,4 +247,19 @@ public class Helpers {
             return arr;
         }
     }
+
+
+    static class Pair implements Comparable<Pair> {
+        int index, value;
+
+        public Pair(int index, int value) {
+            this.index = index;
+            this.value = value;
+        }
+
+        @Override
+        public int compareTo(Pair pair) {
+            return Integer.compare(pair.value, value);
+        }
+    }
 }
