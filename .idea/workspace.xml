@@ -92,10 +92,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CF277_D1_A" />
       <item itemvalue="Application.CF1312_D2_C" />
       <item itemvalue="Application.CF1320_D1_A" />
       <item itemvalue="Application.CF1330_D2_B" />
-      <item itemvalue="Application.CF277_D1_A" />
       <item itemvalue="Application.CF289_D2_B" />
     </list>
     <recent_temporary>
@@ -530,10 +530,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="0" width="482" height="723" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1619813618187" />
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1620592084184">
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1620592133088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1620592084183" />
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1620592133088" />
     <state x="127" y="55" width="1092" height="607" key="DiffContextDialog" timestamp="1618573414868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
