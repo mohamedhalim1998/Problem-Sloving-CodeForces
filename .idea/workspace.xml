@@ -80,7 +80,7 @@
       </method>
     </configuration>
     <configuration name="CF1517_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CF1517_D2_C" />
+      <option name="MAIN_CLASS_NAME" value="C.CF1517_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF1263_D2_B" />
+      <item itemvalue="Application.CF388_D1_A" />
       <item itemvalue="Application.CF1279_D2_C" />
       <item itemvalue="Application.CF1316_D2_B" />
+      <item itemvalue="Application.CF1263_D2_B" />
       <item itemvalue="Application.CF1517_D2_C" />
-      <item itemvalue="Application.CF388_D1_A" />
     </list>
     <recent_temporary>
       <list>
