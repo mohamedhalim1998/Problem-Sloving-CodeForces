@@ -3,28 +3,40 @@ package B;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.PriorityQueue;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.StringTokenizer;
 
-public class CF604_D2_B {
+public class CF1265_D2_B {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
-        int n = scanner.nextInt();
-        int k = scanner.nextInt();
-        int[] arr = scanner.nextArray(n);
-        if (k >= n) {
-            System.out.println(arr[n - 1]);
-        } else {
-            int diff = n - k;
-            int max = arr[n - 1];
-            for (int i = 0, j = diff * 2 - 1; j > 0; i++, j--) {
-                max = Math.max(max, arr[i] + arr[j]);
-            }
-            System.out.println(max);
-
+        int t = scanner.nextInt();
+        StringBuilder out = new StringBuilder();
+        for (int i = 0; i < t; i++) {
+            solve(scanner, out);
         }
+        System.out.print(out);
+    }
 
-
+    private static void solve(FastScanner scanner, StringBuilder out) {
+        int n = scanner.nextInt();
+        int[] arr = scanner.nextArray(n);
+        int[] index = new int[n + 1];
+        for (int i = 0; i < n; i++) {
+            index[arr[i]] = i + 1;
+        }
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (int i = 1; i <= n; i++) {
+            min = Math.min(min, index[i]);
+            max = Math.max(max, index[i]);
+            if (max - min == i - 1) {
+                out.append(1);
+            } else {
+                out.append(0);
+            }
+        }
+        out.append('\n');
     }
 
     static class FastScanner {
