@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF1368_D2_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CF1409_D3_D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +21,11 @@
         <option value="Code Forces C" />
         <option value="CF Fast IN" />
         <option value="Class" />
-        <option value="CF D2 D" />
         <option value="CF D2 A" />
         <option value="CF D1 A" />
         <option value="CF D2 C" />
         <option value="CF D2 B" />
+        <option value="CF D2 D" />
       </list>
     </option>
   </component>
@@ -56,7 +56,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1368_D2_B">
+  <component name="RunManager" selected="Application.CF1409_D3_D">
     <configuration name="CF1338_D1_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="D1A.CF1338_D1_A" />
       <module name="Junior Sheet" />
@@ -66,6 +66,13 @@
     </configuration>
     <configuration name="CF1368_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF1368_D2_B" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1409_D3_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3D.CF1409_D3_D" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,27 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF812_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF812_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.CF1338_D1_A" />
       <item itemvalue="Application.CF253_D2_C" />
       <item itemvalue="Application.CF2_D2_A" />
-      <item itemvalue="Application.CF812_D2_C" />
       <item itemvalue="Application.CF1368_D2_B" />
+      <item itemvalue="Application.CF1409_D3_D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1409_D3_D" />
         <item itemvalue="Application.CF1368_D2_B" />
         <item itemvalue="Application.CF1338_D1_A" />
         <item itemvalue="Application.CF2_D2_A" />
         <item itemvalue="Application.CF253_D2_C" />
-        <item itemvalue="Application.CF812_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -119,13 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599205414241</updated>
-    </task>
-    <task id="LOCAL-00173" summary="UPDATE: 2/4/2021">
-      <created>1622622044667</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1622622044668</updated>
     </task>
     <task id="LOCAL-00174" summary="UPDATE: 4/4/2021">
       <created>1622833163444</created>
@@ -463,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629716607291</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="UPDATE: 24/8/2021">
+      <created>1629816174383</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1629816174386</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UPDATE: 6/7/2021" />
     <MESSAGE value="UPDATE: 9/7/2021" />
     <MESSAGE value="UPDATE: 10/7/2021" />
     <MESSAGE value="UPDATE: 12/7/2021" />
@@ -508,7 +507,8 @@
     <MESSAGE value="UPDATE: 21/8/2021" />
     <MESSAGE value="UPDATE: 22/8/2021" />
     <MESSAGE value="UPDATE: 23/8/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 23/8/2021" />
+    <MESSAGE value="UPDATE: 24/8/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 24/8/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="491" y="82" width="519" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1629285023395">
@@ -519,10 +519,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="251" width="434" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1626650346120" />
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1629716606810">
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1629816173466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629716606810" />
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1629816173466" />
     <state x="127" y="55" width="1092" height="607" key="DiffContextDialog" timestamp="1622143325266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -531,54 +531,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="270" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1628535421299" />
-    <state width="1324" height="367" key="GridCell.Tab.0.bottom" timestamp="1629720267978">
+    <state width="1324" height="367" key="GridCell.Tab.0.bottom" timestamp="1629818564064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629720267978" />
-    <state width="1324" height="367" key="GridCell.Tab.0.center" timestamp="1629720267975">
+    <state width="1324" height="367" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629818564064" />
+    <state width="1324" height="367" key="GridCell.Tab.0.center" timestamp="1629818564064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629720267975" />
-    <state width="1324" height="367" key="GridCell.Tab.0.left" timestamp="1629720267974">
+    <state width="1324" height="367" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1629818564064" />
+    <state width="1324" height="367" key="GridCell.Tab.0.left" timestamp="1629818564064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629720267974" />
-    <state width="1324" height="367" key="GridCell.Tab.0.right" timestamp="1629720267977">
+    <state width="1324" height="367" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1629818564064" />
+    <state width="1324" height="367" key="GridCell.Tab.0.right" timestamp="1629818564064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629720267977" />
-    <state width="1324" height="367" key="GridCell.Tab.1.bottom" timestamp="1629720267983">
+    <state width="1324" height="367" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1629818564064" />
+    <state width="1324" height="367" key="GridCell.Tab.1.bottom" timestamp="1629818564067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629720267983" />
-    <state width="1324" height="367" key="GridCell.Tab.1.center" timestamp="1629720267981">
+    <state width="1324" height="367" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629818564067" />
+    <state width="1324" height="367" key="GridCell.Tab.1.center" timestamp="1629818564065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629720267981" />
-    <state width="1324" height="367" key="GridCell.Tab.1.left" timestamp="1629720267980">
+    <state width="1324" height="367" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1629818564065" />
+    <state width="1324" height="367" key="GridCell.Tab.1.left" timestamp="1629818564065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629720267980" />
-    <state width="1324" height="367" key="GridCell.Tab.1.right" timestamp="1629720267982">
+    <state width="1324" height="367" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1629818564065" />
+    <state width="1324" height="367" key="GridCell.Tab.1.right" timestamp="1629818564067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629720267982" />
+    <state width="1324" height="367" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1629818564067" />
     <state x="499" y="300" width="357" height="121" key="ReplaceDuplicatesPrompt" timestamp="1622143926221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="300" width="357" height="121" key="ReplaceDuplicatesPrompt/0.0.1366.728@0.0.1366.728" timestamp="1622143926221" />
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1629816132975">
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1629890043045">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1629816132975" />
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1629890043045" />
     <state x="416" y="131" width="524" height="487" key="extract.method.dialog" timestamp="1622143923962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="131" width="524" height="487" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1622143923962" />
-    <state x="99" y="0" width="1157" height="723" key="new project wizard" timestamp="1621178837617">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="99" y="0" width="1157" height="723" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1621178837617" />
     <state x="387" y="0" width="582" height="723" key="refactoring.ChangeSignatureDialog" timestamp="1629373295632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -1756,9 +1752,19 @@
           <option name="timeStamp" value="418" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/CF1368_D2_B.java</url>
+          <url>file://$PROJECT_DIR$/src/B/CF1368_D2_B.java</url>
           <line>15</line>
           <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF1409_D3_D.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF1409_D3_D.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="423" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/C/CF131_D2_C.java</url>
