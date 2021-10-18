@@ -112,6 +112,7 @@ public class Helpers {
         }
         return -1;
     }
+
     static int lessSearch(Integer[] arr, int x) {
         int start = 0, end = arr.length - 1;
 
@@ -191,6 +192,15 @@ public class Helpers {
         }
     }
 
+    static HashMap<Integer, Integer> arrToMap(int[] arr, int n) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < n; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+        }
+        return map;
+    }
+
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
@@ -232,6 +242,7 @@ public class Helpers {
             }
             return str;
         }
+
         int[] nextArray(int n) {
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
@@ -239,6 +250,7 @@ public class Helpers {
             }
             return arr;
         }
+
         Integer[] nextArray(int n, boolean object) {
             Integer[] arr = new Integer[n];
             for (int i = 0; i < n; i++) {
