@@ -201,11 +201,11 @@ public class Helpers {
         return map;
     }
 
-    static class FastReader {
+    static class FastScanner {
         BufferedReader br;
         StringTokenizer st;
 
-        public FastReader() {
+        public FastScanner() {
             br = new BufferedReader(new
                     InputStreamReader(System.in));
         }
@@ -255,6 +255,21 @@ public class Helpers {
             Integer[] arr = new Integer[n];
             for (int i = 0; i < n; i++) {
                 arr[i] = nextInt();
+            }
+            return arr;
+        }
+        long[] nextArrayLong(int n) {
+            long[] arr = new long[n];
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextLong();
+            }
+            return arr;
+        }
+
+        Long[] nextArrayLong(int n, boolean object) {
+            Long[] arr = new Long[n];
+            for (int i = 0; i < n; i++) {
+                arr[i] = nextLong();
             }
             return arr;
         }
