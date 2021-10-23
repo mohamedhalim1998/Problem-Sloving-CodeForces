@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 20/10/2021">
-      <change afterPath="$PROJECT_DIR$/src/B/CF1482_D2_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/C/CF1166_D2_C.java" afterDir="false" />
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/C/CF282_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +24,8 @@
         <option value="CF D2 D" />
         <option value="CF D1 A" />
         <option value="CF Fast IN" />
-        <option value="CF D2 C" />
         <option value="CF D2 B" />
+        <option value="CF D2 C" />
       </list>
     </option>
   </component>
@@ -58,7 +56,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1482_D2_B">
+  <component name="RunManager" selected="Application.CF282_D2_C">
     <configuration name="CF1110_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF1110_D2_C" />
       <module name="Junior Sheet" />
@@ -80,13 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1269_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B.CF1269_D2_B" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CF1482_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF1482_D2_B" />
       <module name="Junior Sheet" />
@@ -94,20 +85,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CF282_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C.CF282_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CF1269_D2_B" />
       <item itemvalue="Application.CF1169_D2_B" />
       <item itemvalue="Application.CF1110_D2_C" />
       <item itemvalue="Application.CF1166_D2_C" />
       <item itemvalue="Application.CF1482_D2_B" />
+      <item itemvalue="Application.CF282_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF282_D2_C" />
         <item itemvalue="Application.CF1482_D2_B" />
         <item itemvalue="Application.CF1166_D2_C" />
         <item itemvalue="Application.CF1110_D2_C" />
         <item itemvalue="Application.CF1169_D2_B" />
-        <item itemvalue="Application.CF1269_D2_B" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +119,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599205414241</updated>
-    </task>
-    <task id="LOCAL-00231" summary="UPDATE: 1/9/2021">
-      <created>1630512177715</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1630512177715</updated>
     </task>
     <task id="LOCAL-00232" summary="UPDATE: 2/9/2021">
       <created>1630581696687</created>
@@ -465,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634813771221</updated>
     </task>
-    <option name="localTasksCounter" value="280" />
+    <task id="LOCAL-00280" summary="UPDATE: 22/10/2021">
+      <created>1634919423540</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1634919423540</updated>
+    </task>
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -485,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UPDATE: 23/9/2021" />
-    <MESSAGE value="UPDATE: 24/9/2021" />
     <MESSAGE value="UPDATE: 25/9/2021" />
     <MESSAGE value="UPDATE: 26/9/2021" />
     <MESSAGE value="UPDATE: 27/9/2021" />
@@ -509,8 +505,10 @@
     <MESSAGE value="UPDATE: 17/10/2021" />
     <MESSAGE value="UPDATE: 18/10/2021" />
     <MESSAGE value="UPDATE: 19/10/2021" />
-    <MESSAGE value="UPDATE: 20/10/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 20/10/2021" />
+    <MESSAGE value="UPDATE: 21/10/2021" />
+    <MESSAGE value="UPDATE: 22/10/2021" />
+    <MESSAGE value="UPDATE: 23/10/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 23/10/2021" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="95" width="734" height="531" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1634817313992">
@@ -525,30 +523,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="251" width="434" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1626650346120" />
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1634919390320">
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2" timestamp="1634989218833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1634919390320" />
+    <state x="278" y="0" width="800" height="723" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1634989218833" />
     <state x="507" y="270" key="GitRewordDialog" timestamp="1634919408964">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="270" key="GitRewordDialog/0.0.1366.728@0.0.1366.728" timestamp="1634919408964" />
-    <state width="1324" height="367" key="GridCell.Tab.0.bottom" timestamp="1634824559156">
+    <state width="1324" height="308" key="GridCell.Tab.0.bottom" timestamp="1634920663152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634824559156" />
-    <state width="1324" height="367" key="GridCell.Tab.0.center" timestamp="1634824559155">
+    <state width="1324" height="308" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634920663152" />
+    <state width="1324" height="308" key="GridCell.Tab.0.center" timestamp="1634920663151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634824559155" />
-    <state width="1324" height="367" key="GridCell.Tab.0.left" timestamp="1634824559155">
+    <state width="1324" height="308" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634920663151" />
+    <state width="1324" height="308" key="GridCell.Tab.0.left" timestamp="1634920663151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634824559155" />
-    <state width="1324" height="367" key="GridCell.Tab.0.right" timestamp="1634824559156">
+    <state width="1324" height="308" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634920663151" />
+    <state width="1324" height="308" key="GridCell.Tab.0.right" timestamp="1634920663152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="367" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634824559156" />
+    <state width="1324" height="308" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634920663152" />
     <state width="1324" height="367" key="GridCell.Tab.1.bottom" timestamp="1634824559157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -569,10 +567,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1634298235500" />
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1634919038440">
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1634988915374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1634919038440" />
+    <state x="366" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1634988915374" />
     <state x="387" y="0" width="582" height="723" key="refactoring.ChangeSignatureDialog" timestamp="1629373295632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
