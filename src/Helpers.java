@@ -191,7 +191,26 @@ public class Helpers {
             }
         }
     }
+    public static LinkedHashSet<Long> primeFactors(long n) {
+        LinkedHashSet<Long> set = new LinkedHashSet<>();
+//        set.add(1L);
+        while (n % 2 == 0) {
+            set.add(2L);
+            n /= 2;
+        }
 
+
+        for (long i = 3; i * i <= n; i += 2) {
+            while (n % i == 0) {
+                set.add(i);
+                n /= i;
+            }
+        }
+        if (n > 2)
+            set.add(n);
+
+        return set;
+    }
     static HashMap<Integer, Integer> arrToMap(int[] arr, int n) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
