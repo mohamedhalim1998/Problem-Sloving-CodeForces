@@ -191,6 +191,7 @@ public class Helpers {
             }
         }
     }
+
     public static LinkedHashSet<Long> primeFactors(long n) {
         LinkedHashSet<Long> set = new LinkedHashSet<>();
 //        set.add(1L);
@@ -211,6 +212,7 @@ public class Helpers {
 
         return set;
     }
+
     static HashMap<Integer, Integer> arrToMap(int[] arr, int n) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
@@ -219,6 +221,35 @@ public class Helpers {
         }
         return map;
     }
+
+
+    private static void dfs(int index, boolean[] visited, ArrayList<ArrayList<Integer>> graph) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(index);
+        while (!stack.isEmpty()) {
+            int curr = stack.pop();
+            visited[curr] = true;
+            for (int x : graph.get(curr)) {
+                if (!visited[x]) {
+                    stack.push(x);
+                }
+            }
+        }
+    }
+
+    private static boolean cycle(int v, boolean[] visited, int parent, ArrayList<ArrayList<Integer>> graph) {
+        visited[v] = true;
+        for (int x : graph.get(v)) {
+            if (!visited[x]) {
+                if (cycle(x, visited, v, graph))
+                    return true;
+            } else if (x != parent) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     static class FastScanner {
         BufferedReader br;
@@ -277,6 +308,7 @@ public class Helpers {
             }
             return arr;
         }
+
         long[] nextArrayLong(int n) {
             long[] arr = new long[n];
             for (int i = 0; i < n; i++) {
@@ -295,17 +327,26 @@ public class Helpers {
     }
 
 
-    static class Pair implements Comparable<Pair> {
-        int index, value;
+    static class Pair {
+        int x, y;
 
-        public Pair(int index, int value) {
-            this.index = index;
-            this.value = value;
+        public Pair(int x, int y) {
+            this.x = x;
+            this.y = y;
         }
 
         @Override
-        public int compareTo(Pair pair) {
-            return Integer.compare(pair.value, value);
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (o == null || getClass() != o.getClass()) return false;
+            Pair pair = (Pair) o;
+            return (x == pair.x && y == pair.y)
+                    || (x == pair.y && y == pair.x);
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(x + y);
         }
     }
 }
