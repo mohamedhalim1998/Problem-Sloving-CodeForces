@@ -59,7 +59,7 @@
   </component>
   <component name="RunManager" selected="Application.CF1043_D2_C">
     <configuration name="CF1043_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CF1043_D2_C" />
+      <option name="MAIN_CLASS_NAME" value="C.CF1043_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF1043_D2_C" />
       <item itemvalue="Application.CF1106_D2_B" />
+      <item itemvalue="Application.CF771_D2_B" />
       <item itemvalue="Application.CF137_D2_C" />
       <item itemvalue="Application.CF555_D1_A" />
-      <item itemvalue="Application.CF771_D2_B" />
+      <item itemvalue="Application.CF1043_D2_C" />
     </list>
     <recent_temporary>
       <list>
