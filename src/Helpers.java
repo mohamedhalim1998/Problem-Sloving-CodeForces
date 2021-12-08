@@ -14,17 +14,19 @@ public class Helpers {
     }
 
     public static void printArrayInLine(int[] arr) {
+        StringBuilder builder = new StringBuilder();
         for (int value : arr) {
-            System.out.print(value + " ");
+            builder.append(value).append(" ");
         }
-        System.out.println();
+        System.out.println(builder);
     }
 
     public static void printArrayInLine(Object[] arr) {
-        for (Object o : arr) {
-            System.out.print(o + " ");
+        StringBuilder builder = new StringBuilder();
+        for (Object value : arr) {
+            builder.append(value).append(" ");
         }
-        System.out.println();
+        System.out.println(builder);
     }
 
     public static int log2(int N) {
