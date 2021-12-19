@@ -238,6 +238,20 @@ public class Helpers {
             }
         }
     }
+    private static void dfs(int index, ArrayList<ArrayList<Integer>> graph) {
+        boolean[] visited = new boolean[graph.size()];
+        Stack<Integer> stack = new Stack<>();
+        stack.push(index);
+        while (!stack.isEmpty()) {
+            int curr = stack.pop();
+            visited[curr] = true;
+            for (int x : graph.get(curr)) {
+                if (!visited[x]) {
+                    stack.push(x);
+                }
+            }
+        }
+    }
 
     private static boolean cycle(int v, boolean[] visited, int parent, ArrayList<ArrayList<Integer>> graph) {
         visited[v] = true;
