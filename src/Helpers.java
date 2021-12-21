@@ -141,6 +141,19 @@ public class Helpers {
         return ans;
     }
 
+
+    static long nPr(int n, int r) {
+        if (n < r) {
+            return 0;
+        }
+        long a = 1;
+        for (int i = 0; i < r; i++) {
+            a *= n - i;
+        }
+
+        return a;
+    }
+
     static int gcd(int n1, int n2) {
         if (n2 == 0) {
             return n1;
@@ -238,6 +251,7 @@ public class Helpers {
             }
         }
     }
+
     private static void dfs(int index, ArrayList<ArrayList<Integer>> graph) {
         boolean[] visited = new boolean[graph.size()];
         Stack<Integer> stack = new Stack<>();
