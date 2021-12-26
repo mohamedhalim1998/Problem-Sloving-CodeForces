@@ -5,3 +5,5 @@ out/
 .idea/**/dictionaries
 .idea/**/shelf
 *.log
+output.txt
+input.txt
