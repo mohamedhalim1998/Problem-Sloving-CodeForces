@@ -7,3 +7,5 @@ out/
 *.log
 output.txt
 input.txt
+/.idea/codeStyles/Project.xml
+/.idea/dbnavigator.xml
