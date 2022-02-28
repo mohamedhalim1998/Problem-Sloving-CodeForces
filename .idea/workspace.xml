@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF91_D1_A.java" afterDir="false" />
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 28/2/2021">
+      <change afterPath="$PROJECT_DIR$/src/CF350_D2_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,13 +26,13 @@
         <option value="Code Forces A" />
         <option value="Code Forces B" />
         <option value="Code Forces C" />
-        <option value="Class" />
         <option value="CF Fast IN" />
         <option value="CF D2 D" />
         <option value="CF D2 C" />
         <option value="CF D2 B" />
         <option value="CF D2 A" />
         <option value="CF D1 A" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA&#10;kotlin&#10;HTML" />
@@ -72,7 +74,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF91_D1_A">
+  <component name="RunManager" selected="Application.CF350_D2_B">
     <configuration name="CF17_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF17_D2_B" />
       <module name="Junior Sheet" />
@@ -80,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF374_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B.CF374_D2_B" />
+    <configuration name="CF350_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B.CF350_D2_B" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF374_D2_B" />
       <item itemvalue="Application.CF17_D2_B" />
       <item itemvalue="Application.CF384_D2_B" />
       <item itemvalue="Application.CF436_D2_A" />
       <item itemvalue="Application.CF91_D1_A" />
+      <item itemvalue="Application.CF350_D2_B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF350_D2_B" />
         <item itemvalue="Application.CF91_D1_A" />
         <item itemvalue="Application.CF436_D2_A" />
         <item itemvalue="Application.CF384_D2_B" />
         <item itemvalue="Application.CF17_D2_B" />
-        <item itemvalue="Application.CF374_D2_B" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UPDATE: 27/12/2021" />
     <MESSAGE value="UPDATE: 28/12/2021" />
     <MESSAGE value="UPDATE: 29/12/2021" />
     <MESSAGE value="UPDATE: 30/12/2021" />
@@ -523,7 +524,8 @@
     <MESSAGE value="UPDATE: 24/2/2021" />
     <MESSAGE value="UPDATE: 25/2/2021" />
     <MESSAGE value="UPDATE: 26/2/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 26/2/2021" />
+    <MESSAGE value="UPDATE: 28/2/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 28/2/2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2577,9 +2579,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1217_D2_A.ic" NAME="CF1217_D2_A Coverage Results" MODIFIED="1616145715345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1517_D2_C.ic" NAME="CF1517_D2_C Coverage Results" MODIFIED="1623241776524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF587_D1_A.ic" NAME="CF587_D1_A Coverage Results" MODIFIED="1635783718364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1110_D2_C.ic" NAME="CF1110_D2_C Coverage Results" MODIFIED="1634621896660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1183_D2_C.ic" NAME="CF1183_D2_C Coverage Results" MODIFIED="1621771937759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1110_D2_C.ic" NAME="CF1110_D2_C Coverage Results" MODIFIED="1634621896660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF587_D1_A.ic" NAME="CF587_D1_A Coverage Results" MODIFIED="1635783718364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1428_D2_B.ic" NAME="CF1428_D2_B Coverage Results" MODIFIED="1613025968649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
