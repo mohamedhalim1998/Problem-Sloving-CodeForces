@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 28/2/2021">
-      <change afterPath="$PROJECT_DIR$/src/CF770_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CF190_D2_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CF190_D2_C.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF770_D2_C">
+  <component name="RunManager" selected="Application.CF190_D2_C">
     <configuration name="CF121_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CF121_D2_C" />
       <module name="Junior Sheet" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF271_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF271_D2_C" />
+    <configuration name="CF190_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C.CF190_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF271_D2_C" />
       <item itemvalue="Application.CF362_D2_A" />
       <item itemvalue="Application.CF75_D2_B" />
       <item itemvalue="Application.CF121_D2_C" />
       <item itemvalue="Application.CF770_D2_C" />
+      <item itemvalue="Application.CF190_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF190_D2_C" />
         <item itemvalue="Application.CF770_D2_C" />
         <item itemvalue="Application.CF121_D2_C" />
         <item itemvalue="Application.CF75_D2_B" />
         <item itemvalue="Application.CF362_D2_A" />
-        <item itemvalue="Application.CF271_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -2633,6 +2633,15 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CF190_D2_C.java</url>
+          <line>34</line>
+          <properties class="CF190_D2_C" method="solve">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="758" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
