@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF48_D2_D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CF245_D2_D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +74,16 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF48_D2_D">
+  <component name="RunManager" selected="Application.CF245_D2_D">
     <configuration name="CF190_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF190_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF245_D2_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D.CF245_D2_D" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,27 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF770_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF770_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.CF770_D2_C" />
       <item itemvalue="Application.CF190_D2_C" />
       <item itemvalue="Application.CF290_D2_B" />
       <item itemvalue="Application.CF49_D2_B" />
       <item itemvalue="Application.CF48_D2_D" />
+      <item itemvalue="Application.CF245_D2_D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF245_D2_D" />
         <item itemvalue="Application.CF48_D2_D" />
         <item itemvalue="Application.CF49_D2_B" />
         <item itemvalue="Application.CF290_D2_B" />
         <item itemvalue="Application.CF190_D2_C" />
-        <item itemvalue="Application.CF770_D2_C" />
       </list>
     </recent_temporary>
   </component>
