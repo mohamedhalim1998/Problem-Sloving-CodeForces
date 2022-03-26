@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 19/3/2021">
-      <change afterPath="$PROJECT_DIR$/src/CF53_D2_D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 19/3/2021" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,9 +71,9 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF53_D2_D">
-    <configuration name="CF245_D2_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D.CF245_D2_D" />
+  <component name="RunManager" selected="Application.CF24_D2_B">
+    <configuration name="CF24_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B.CF24_D2_B" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,19 +108,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF245_D2_D" />
       <item itemvalue="Application.CF250_D2_B" />
       <item itemvalue="Application.CF638_D2_B" />
       <item itemvalue="Application.CF44_D2_B" />
       <item itemvalue="Application.CF53_D2_D" />
+      <item itemvalue="Application.CF24_D2_B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF24_D2_B" />
         <item itemvalue="Application.CF53_D2_D" />
         <item itemvalue="Application.CF44_D2_B" />
         <item itemvalue="Application.CF638_D2_B" />
         <item itemvalue="Application.CF250_D2_B" />
-        <item itemvalue="Application.CF245_D2_D" />
       </list>
     </recent_temporary>
   </component>
