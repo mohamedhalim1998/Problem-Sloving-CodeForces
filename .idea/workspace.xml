@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 19/3/2021">
+      <change afterPath="$PROJECT_DIR$/src/CF1342_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +31,8 @@
         <option value="CF D2 C" />
         <option value="CF D2 D" />
         <option value="CF D2 B" />
-        <option value="CF_D2_C" />
         <option value="Class" />
+        <option value="CF_D2_C" />
       </list>
     </option>
   </component>
@@ -73,9 +74,16 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1396_D1_A">
+  <component name="RunManager" selected="Application.CF1342_D2_C">
     <configuration name="CF1334_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF1334_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1342_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C.CF1342_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,27 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF328_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CF328_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.CF328_D2_C" />
       <item itemvalue="Application.CF1334_D2_C" />
       <item itemvalue="Application.CF1345_D2_C" />
       <item itemvalue="Application.CF1349_D1_A" />
       <item itemvalue="Application.CF1396_D1_A" />
+      <item itemvalue="Application.CF1342_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1342_D2_C" />
         <item itemvalue="Application.CF1396_D1_A" />
         <item itemvalue="Application.CF1349_D1_A" />
         <item itemvalue="Application.CF1345_D2_C" />
         <item itemvalue="Application.CF1334_D2_C" />
-        <item itemvalue="Application.CF328_D2_C" />
       </list>
     </recent_temporary>
   </component>
