@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 5/4/2022">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CF1458_D1_A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +27,12 @@
         <option value="Code Forces C" />
         <option value="CF Fast IN" />
         <option value="CF D2 A" />
-        <option value="CF D1 A" />
         <option value="CF D2 D" />
         <option value="CF D2 B" />
         <option value="Class" />
         <option value="CF_D2_C" />
         <option value="CF D2 C" />
+        <option value="CF D1 A" />
       </list>
     </option>
   </component>
@@ -53,6 +53,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="1h2Nph18Ii2YHACOyahNUKUG8ct" />
   <component name="ProjectViewState">
@@ -77,7 +80,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1327_D2_C">
+  <component name="RunManager" selected="Application.CF1458_D1_A">
     <configuration name="CF1327_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CF1327_D2_C" />
       <module name="Junior Sheet" />
@@ -87,13 +90,6 @@
     </configuration>
     <configuration name="CF1342_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF1342_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CF1345_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF1345_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,20 +109,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CF1458_D1_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D1A.CF1458_D1_A" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CF1345_D2_C" />
       <item itemvalue="Application.CF1349_D1_A" />
       <item itemvalue="Application.CF1396_D1_A" />
       <item itemvalue="Application.CF1342_D2_C" />
       <item itemvalue="Application.CF1327_D2_C" />
+      <item itemvalue="Application.CF1458_D1_A" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1458_D1_A" />
         <item itemvalue="Application.CF1327_D2_C" />
         <item itemvalue="Application.CF1342_D2_C" />
         <item itemvalue="Application.CF1396_D1_A" />
         <item itemvalue="Application.CF1349_D1_A" />
-        <item itemvalue="Application.CF1345_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -141,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599205414241</updated>
-    </task>
-    <task id="LOCAL-00323" summary="UPDATE: 8/12/2021">
-      <created>1638966273452</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1638966273453</updated>
     </task>
     <task id="LOCAL-00324" summary="UPDATE: 9/12/2021">
       <created>1639046525880</created>
@@ -485,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647690832430</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="UPDATE: 5/4/2022">
+      <created>1649231299968</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1649231299969</updated>
+    </task>
+    <option name="localTasksCounter" value="373" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -503,7 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UPDATE: 1/1/2022" />
     <MESSAGE value="UPDATE: 2/1/2021" />
     <MESSAGE value="UPDATE: 3/1/2021" />
     <MESSAGE value="UPDATE: 4/1/2021" />
@@ -528,7 +530,8 @@
     <MESSAGE value="UPDATE: 17/3/2021" />
     <MESSAGE value="UPDATE: 18/3/2021" />
     <MESSAGE value="UPDATE: 19/3/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 19/3/2021" />
+    <MESSAGE value="UPDATE: 5/4/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 5/4/2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
