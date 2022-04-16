@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 6/4/2022">
-      <change afterPath="$PROJECT_DIR$/src/B/CF426_D2_B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CF1000_D2_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CF334_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/B/CF868_D2_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B/CF868_D2_B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1000_D2_A">
+  <component name="RunManager" selected="Application.CF334_D2_B">
     <configuration name="CF1000_D2_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A.CF1000_D2_A" />
       <module name="Junior Sheet" />
@@ -89,15 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1364_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF1364_D2_C" />
+    <configuration name="CF334_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B.CF334_D2_B" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1458_D1_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D1A.CF1458_D1_A" />
+    <configuration name="CF334_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF334_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,27 +110,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF510_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF510_D2_C" />
+    <configuration name="CF868_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B.CF868_D2_B" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CF1458_D1_A" />
-      <item itemvalue="Application.CF510_D2_C" />
-      <item itemvalue="Application.CF1364_D2_C" />
       <item itemvalue="Application.CF426_D2_B" />
       <item itemvalue="Application.CF1000_D2_A" />
+      <item itemvalue="Application.CF868_D2_B" />
+      <item itemvalue="Application.CF334_D2_C" />
+      <item itemvalue="Application.CF334_D2_B" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF334_D2_B" />
+        <item itemvalue="Application.CF334_D2_C" />
+        <item itemvalue="Application.CF868_D2_B" />
         <item itemvalue="Application.CF1000_D2_A" />
         <item itemvalue="Application.CF426_D2_B" />
-        <item itemvalue="Application.CF1364_D2_C" />
-        <item itemvalue="Application.CF510_D2_C" />
-        <item itemvalue="Application.CF1458_D1_A" />
       </list>
     </recent_temporary>
   </component>
@@ -2672,6 +2672,26 @@
           <line>15</line>
           <option name="timeStamp" value="781" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF868_D2_B.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF868_D2_B.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF868_D2_B.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/B/CF868_D2_B.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="787" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/C/CF131_D2_C.java</url>
           <line>19</line>
@@ -2720,6 +2740,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr[3]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
