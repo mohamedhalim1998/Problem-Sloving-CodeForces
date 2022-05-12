@@ -28,6 +28,13 @@ public class Helpers {
         }
         System.out.println(builder);
     }
+    public static void printArrayInLine(Iterable<Object> arr) {
+        StringBuilder builder = new StringBuilder();
+        for (Object value : arr) {
+            builder.append(value).append(" ");
+        }
+        System.out.println(builder);
+    }
 
     public static int log2(int N) {
 
