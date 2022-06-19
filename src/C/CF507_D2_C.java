@@ -3,29 +3,65 @@ package C;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedHashSet;
 import java.util.StringTokenizer;
 
-public class CF735_D2_C {
+public class CF507_D2_C {
+    static long count = 0;
+    static LinkedHashSet<Long> set = new LinkedHashSet<>();
+    static int h;
+    static long goal;
+
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
+        h = scanner.nextInt();
         long n = scanner.nextLong();
-        int ans = 0;
-        if (n <= 2) {
-            System.out.println(1);
-            return;
-        }
-        long n1 = 1, n2 = 2, n3 = 3;
-        while (n3 <= n) {
-            n3 = n1 + n2;
-            n1 = n2;
-            n2 = n3;
-            ans++;
+        goal = (long) (Math.pow(2, h) - 2 + n);
+        long curr = goal;
+        set.add(goal);
+        while (curr > 0) {
+            curr = (curr - 1) / 2;
+            set.add(curr);
         }
 
-        System.out.println(ans);
+        solve(0, true, h);
+        System.out.println(count);
+
 
     }
 
+    private static void solve(long i, boolean left, int h) {
+
+        if (isLeaf(i)) {
+            if (i != goal) {
+                count++;
+            }
+            return;
+        }
+        long l = 2 * i + 1;
+        long r = 2 * i + 2;
+        count++;
+        if (left) {
+            if (set.contains(l)) {
+                solve(l, false, h - 1);
+            } else {
+                count += Math.pow(2, h) - 1;
+                solve(r, true, h - 1);
+            }
+        } else {
+            if (set.contains(r)) {
+                solve(r, true, h - 1);
+            } else {
+                count += Math.pow(2, h) - 1;
+                solve(l, false, h - 1);
+            }
+
+        }
+    }
+
+    private static boolean isLeaf(long curr) {
+        return curr > Math.pow(2, h) - 2;
+    }
 
 
     static class FastScanner {
