@@ -3,38 +3,68 @@ package C;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.LinkedHashSet;
 import java.util.StringTokenizer;
 
-public class CF534_D2_C {
+public class CF584_D2_C {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
         int n = scanner.nextInt();
-        long a = scanner.nextLong();
-        int[] arr = scanner.nextArray(n);
-        long sum = 0;
+        int t = scanner.nextInt();
+        String s1 = scanner.next();
+        String s2 = scanner.next();
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
         for (int i = 0; i < n; i++) {
-            sum += arr[i];
-        }
-        StringBuilder out = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            long x = sum - arr[i];
-            long atLeast = a - x;
-            long ans = 0;
-            if (atLeast > 0) {
-                ans += atLeast - 1;
+            if (s1.charAt(i) == s2.charAt(i)) {
+                set.add(i);
             }
-            x = n - 1;
-            long atMost = a - x;
-            if (atMost < arr[i]) {
-                ans += arr[i] - atMost;
+        }
+
+        char[] res = new char[n];
+
+        for (int i = 0; i < n; i++) {
+            char c = 'a';
+            while (c == s1.charAt(i) || c == s2.charAt(i)) {
+                c++;
+            }
+            res[i] = c;
+        }
+        int diff = n;
+        for (int x : set) {
+            if (diff > t) {
+                diff--;
+                res[x] = s1.charAt(x);
+            } else {
+                break;
+            }
+        }
+        if (diff > t) {
+            int i = 0;
+            int d = diff;
+            for (; i < n && d > t; i++) {
+                if (set.contains(i))
+                    continue;
+                res[i] = s1.charAt(i);
+                d--;
+            }
+            d = diff;
+            for (; i < n && d > t; i++) {
+                if (set.contains(i))
+                    continue;
+                res[i] = s2.charAt(i);
+                d--;
             }
 
-            out.append(ans).append(" ");
+            if(d > t) {
+                System.out.println(-1);
+                return;
+            }
         }
-        System.out.println(out);
+            System.out.println(String.valueOf(res));
 
 
     }
+
 
     static class FastScanner {
         BufferedReader br;

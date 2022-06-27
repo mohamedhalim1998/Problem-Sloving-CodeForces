@@ -3,38 +3,52 @@ package C;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class CF534_D2_C {
+public class CF445_D2_C {
+
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
         int n = scanner.nextInt();
-        long a = scanner.nextLong();
-        int[] arr = scanner.nextArray(n);
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += arr[i];
-        }
-        StringBuilder out = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            long x = sum - arr[i];
-            long atLeast = a - x;
-            long ans = 0;
-            if (atLeast > 0) {
-                ans += atLeast - 1;
-            }
-            x = n - 1;
-            long atMost = a - x;
-            if (atMost < arr[i]) {
-                ans += arr[i] - atMost;
-            }
+        int m = scanner.nextInt();
+        int[] nodes = scanner.nextArray(n);
 
-            out.append(ans).append(" ");
+        ArrayList<Edge> edges = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            int x = scanner.nextInt() - 1;
+            int y = scanner.nextInt() - 1;
+            int w = scanner.nextInt();
+            edges.add(new Edge(x, y, w));
+
         }
-        System.out.println(out);
+        double max = 0;
+        for (Edge e : edges) {
+            max = Math.max(max, (1.0 * nodes[e.from] + nodes[e.to]) / e.weight);
+        }
+        System.out.println(max);
 
 
     }
+
+
+    static class Edge implements Comparable<Edge> {
+        int from;
+        int to;
+        int weight;
+
+        public Edge(int from, int to, int weight) {
+            this.from = from;
+            this.to = to;
+            this.weight = weight;
+        }
+
+        @Override
+        public int compareTo(Edge edge) {
+            return Integer.compare(edge.weight, weight);
+        }
+    }
+
 
     static class FastScanner {
         BufferedReader br;

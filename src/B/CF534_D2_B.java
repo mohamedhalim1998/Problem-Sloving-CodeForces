@@ -1,40 +1,48 @@
-package C;
+package B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class CF534_D2_C {
+public class CF534_D2_B {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
-        int n = scanner.nextInt();
-        long a = scanner.nextLong();
-        int[] arr = scanner.nextArray(n);
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += arr[i];
+        int v1 = scanner.nextInt();
+        int v2 = scanner.nextInt();
+        int t = scanner.nextInt();
+        int d = scanner.nextInt();
+        int[] arr = new int[t];
+        arr[0] = v1;
+        arr[t - 1] = v2;
+        int v = v1 + d;
+        for (int i = 1; i < t - 1; i++) {
+            arr[i] = v;
+            v += d;
         }
-        StringBuilder out = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            long x = sum - arr[i];
-            long atLeast = a - x;
-            long ans = 0;
-            if (atLeast > 0) {
-                ans += atLeast - 1;
+        v = v2 + d;
+        for (int i = t - 2; i > 0; i--) {
+            if (v < arr[i]) {
+                int diff = arr[i] - v;
+                if (diff <= d) {
+                    arr[i] = arr[i] - diff;
+                    break;
+                } else {
+                    arr[i] = v;
+                    v += d;
+                }
+            } else {
+                break;
             }
-            x = n - 1;
-            long atMost = a - x;
-            if (atMost < arr[i]) {
-                ans += arr[i] - atMost;
-            }
-
-            out.append(ans).append(" ");
         }
-        System.out.println(out);
-
+        long sum = 0L;
+        for(int x : arr) {
+            sum += x;
+        }
+        System.out.println(sum);
 
     }
+
 
     static class FastScanner {
         BufferedReader br;

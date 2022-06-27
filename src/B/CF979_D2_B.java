@@ -1,40 +1,59 @@
-package C;
+package B;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.StringTokenizer;
 
-public class CF534_D2_C {
+public class CF979_D2_B {
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner();
         int n = scanner.nextInt();
-        long a = scanner.nextLong();
-        int[] arr = scanner.nextArray(n);
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum += arr[i];
+        // Kuro, Shiro and Katie
+        String kuro = scanner.next();
+        String shiro = scanner.next();
+        String katie = scanner.next();
+        int maxKuro = calculateMax(kuro, n);
+        int maxShiro = calculateMax(shiro, n);
+        int maxKatie = calculateMax(katie, n);
+
+        if (maxKuro > maxKatie && maxKuro > maxShiro) {
+            System.out.println("Kuro");
+        } else if (maxKatie > maxKuro && maxKatie > maxShiro) {
+            System.out.println("Katie");
+        } else if (maxShiro > maxKatie && maxShiro > maxKuro) {
+            System.out.println("Shiro");
+        } else {
+            System.out.println("Draw");
         }
-        StringBuilder out = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            long x = sum - arr[i];
-            long atLeast = a - x;
-            long ans = 0;
-            if (atLeast > 0) {
-                ans += atLeast - 1;
-            }
-            x = n - 1;
-            long atMost = a - x;
-            if (atMost < arr[i]) {
-                ans += arr[i] - atMost;
-            }
-
-            out.append(ans).append(" ");
-        }
-        System.out.println(out);
-
-
     }
+
+    public static int calculateMax(String s, int n) {
+        if (n > s.length()) {
+            return s.length();
+        }
+        int max = 0;
+        HashMap<Character, Integer> freq = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            freq.put(s.charAt(i), freq.getOrDefault(s.charAt(i), 0) + 1);
+        }
+        for (int x : freq.values()) {
+            int a = x;
+            if (x + n <= s.length()) {
+                a = x + n;
+            } else {
+                if (n > 1)
+                    return s.length();
+                else
+                    return s.length() - 1;
+            }
+            max = Math.max(a, max);
+        }
+
+        return max;
+    }
+
 
     static class FastScanner {
         BufferedReader br;
