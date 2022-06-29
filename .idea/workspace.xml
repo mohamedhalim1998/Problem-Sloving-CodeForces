@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 16/6/2022">
-      <change afterPath="$PROJECT_DIR$/src/CF507_D2_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/C/CF822_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +80,7 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF507_D2_C">
-    <configuration name="CF222_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B.CF222_D2_B" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.CF822_D2_C">
     <configuration name="CF253_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF253_D2_C" />
       <module name="Junior Sheet" />
@@ -116,20 +109,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CF822_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C.CF822_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.CF222_D2_B" />
       <item itemvalue="Application.CF253_D2_C" />
       <item itemvalue="Application.CF604_D2_C" />
       <item itemvalue="Application.CF735_D2_C" />
       <item itemvalue="Application.CF507_D2_C" />
+      <item itemvalue="Application.CF822_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF822_D2_C" />
         <item itemvalue="Application.CF507_D2_C" />
         <item itemvalue="Application.CF735_D2_C" />
         <item itemvalue="Application.CF604_D2_C" />
         <item itemvalue="Application.CF253_D2_C" />
-        <item itemvalue="Application.CF222_D2_B" />
       </list>
     </recent_temporary>
   </component>
@@ -2976,7 +2976,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CF507_D2_C.java</url>
           <line>30</line>
-          <properties class="CF507_D2_C" method="solve">
+          <properties class="CF507_D2_C">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
