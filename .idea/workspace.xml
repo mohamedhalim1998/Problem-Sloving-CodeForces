@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF445_D2_C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CF260_D2_C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,14 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF445_D2_C">
+  <component name="RunManager" selected="Application.CF260_D2_C">
+    <configuration name="CF260_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C.CF260_D2_C" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CF445_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF445_D2_C" />
       <module name="Junior Sheet" />
@@ -108,13 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF792_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF792_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CF979_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF979_D2_B" />
       <module name="Junior Sheet" />
@@ -125,17 +125,17 @@
     <list>
       <item itemvalue="Application.CF534_D2_B" />
       <item itemvalue="Application.CF534_D2_C" />
-      <item itemvalue="Application.CF792_D2_C" />
       <item itemvalue="Application.CF979_D2_B" />
       <item itemvalue="Application.CF445_D2_C" />
+      <item itemvalue="Application.CF260_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF260_D2_C" />
         <item itemvalue="Application.CF445_D2_C" />
         <item itemvalue="Application.CF979_D2_B" />
         <item itemvalue="Application.CF534_D2_C" />
         <item itemvalue="Application.CF534_D2_B" />
-        <item itemvalue="Application.CF792_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -2906,6 +2906,11 @@
           <url>file://$PROJECT_DIR$/src/B/CF979_D2_B.java</url>
           <line>18</line>
           <option name="timeStamp" value="877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF260_D2_C.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="878" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/C/CF131_D2_C.java</url>
