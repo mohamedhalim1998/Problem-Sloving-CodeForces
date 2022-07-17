@@ -80,7 +80,20 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF451_D2_C">
+  <component name="RunManager" selected="Application.CF1409_D3_D">
+    <configuration name="CF1409_D3_D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D3D.CF1409_D3_D" />
+      <module name="Junior Sheet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="D3D.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CF151_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="C.CF151_D2_C" />
       <module name="Junior Sheet" />
@@ -109,27 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF835_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF835_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.CF151_D2_C" />
       <item itemvalue="Application.CF75_D2_C" />
-      <item itemvalue="Application.CF835_D2_C" />
       <item itemvalue="Application.CF740_D2_C" />
       <item itemvalue="Application.CF451_D2_C" />
+      <item itemvalue="Application.CF1409_D3_D" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1409_D3_D" />
         <item itemvalue="Application.CF451_D2_C" />
         <item itemvalue="Application.CF740_D2_C" />
         <item itemvalue="Application.CF75_D2_C" />
         <item itemvalue="Application.CF151_D2_C" />
-        <item itemvalue="Application.CF835_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -2995,7 +3001,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CF451_D2_C.java</url>
           <line>17</line>
-          <properties class="CF451_D2_C" method="solve">
+          <properties class="CF451_D2_C">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -3004,7 +3010,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CF451_D2_C.java</url>
           <line>38</line>
-          <properties class="CF451_D2_C" method="check">
+          <properties class="CF451_D2_C">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
