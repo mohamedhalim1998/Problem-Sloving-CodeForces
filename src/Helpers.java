@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 public class Helpers {
+    static char[] alphabet = "abcdefghijklmnopqrstuvwxyz".toCharArray();
 
     public static int[] nextArray(Scanner scanner, int n) {
         int[] arr = new int[n];
