@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CF1321_D2_C.java" afterDir="false" />
+    <list default="true" id="e2aa7245-3163-4327-80dc-89b4bf5c2999" name="Default Changelist" comment="UPDATE: 10/12/2022">
+      <change afterPath="$PROJECT_DIR$/src/D1B/CF1191_D1_B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/D1B/CF1753_D1_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +32,9 @@
         <option value="Class" />
         <option value="CF D2 D" />
         <option value="CF D1 A" />
-        <option value="CF_D2_C" />
         <option value="CF D2 B" />
         <option value="CF D2 C" />
+        <option value="CF_D2_C" />
       </list>
     </option>
   </component>
@@ -80,9 +82,16 @@
       <recent name="B" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CF1321_D2_C">
+  <component name="RunManager" selected="Application.CF1191_D2_C">
     <configuration name="CF1175_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF1175_D2_B" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CF1191_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CF1191_D2_C" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,13 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF1623_D2_C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="C.CF1623_D2_C" />
-      <module name="Junior Sheet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CF1730_D2_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B.CF1730_D2_B" />
       <module name="Junior Sheet" />
@@ -109,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CF763_D1_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D1A.CF763_D1_A" />
+    <configuration name="CF1753_D1_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D1B.CF1753_D1_B" />
       <module name="Junior Sheet" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,17 +121,17 @@
     <list>
       <item itemvalue="Application.CF1175_D2_B" />
       <item itemvalue="Application.CF1321_D2_C" />
-      <item itemvalue="Application.CF1623_D2_C" />
       <item itemvalue="Application.CF1730_D2_B" />
-      <item itemvalue="Application.CF763_D1_A" />
+      <item itemvalue="Application.CF1753_D1_B" />
+      <item itemvalue="Application.CF1191_D2_C" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CF1191_D2_C" />
+        <item itemvalue="Application.CF1753_D1_B" />
         <item itemvalue="Application.CF1321_D2_C" />
         <item itemvalue="Application.CF1175_D2_B" />
         <item itemvalue="Application.CF1730_D2_B" />
-        <item itemvalue="Application.CF763_D1_A" />
-        <item itemvalue="Application.CF1623_D2_C" />
       </list>
     </recent_temporary>
   </component>
@@ -722,6 +724,26 @@
           <line>18</line>
           <option name="timeStamp" value="1122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D1A/CF763_D1_A.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D1B/CF1753_D1_B.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D1B/CF1191_D1_B.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/D1B/CF1191_D1_B.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1127" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/D1B/CF343_D1_B.java</url>
           <line>61</line>
@@ -753,21 +775,21 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1217_D2_A.ic" NAME="CF1217_D2_A Coverage Results" MODIFIED="1616145715345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF253_D2_C.ic" NAME="CF253_D2_C Coverage Results" MODIFIED="1655017367638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1542_D2_C.ic" NAME="CF1542_D2_C Coverage Results" MODIFIED="1665418191346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF199_D2_C.ic" NAME="CF199_D2_C Coverage Results" MODIFIED="1661787423441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF408_D2_C.ic" NAME="CF408_D2_C Coverage Results" MODIFIED="1660739753198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF587_D1_A.ic" NAME="CF587_D1_A Coverage Results" MODIFIED="1635783718364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Problem_Sloving_CodeForces$CF128_D1_A.ic" NAME="CF128_D1_A Coverage Results" MODIFIED="1646207815023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1539_D2_D.ic" NAME="CF1539_D2_D Coverage Results" MODIFIED="1669449047186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF466_D2_C.ic" NAME="CF466_D2_C Coverage Results" MODIFIED="1660994781659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1517_D2_C.ic" NAME="CF1517_D2_C Coverage Results" MODIFIED="1623241776524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF349_D2_C.ic" NAME="CF349_D2_C Coverage Results" MODIFIED="1661582386010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1110_D2_C.ic" NAME="CF1110_D2_C Coverage Results" MODIFIED="1634621896660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1183_D2_C.ic" NAME="CF1183_D2_C Coverage Results" MODIFIED="1621771937759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1539_D2_D.ic" NAME="CF1539_D2_D Coverage Results" MODIFIED="1669449047186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF381_D2_C.ic" NAME="CF381_D2_C Coverage Results" MODIFIED="1661680839485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF587_D1_A.ic" NAME="CF587_D1_A Coverage Results" MODIFIED="1635783718364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1217_D2_A.ic" NAME="CF1217_D2_A Coverage Results" MODIFIED="1616145715345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF408_D2_C.ic" NAME="CF408_D2_C Coverage Results" MODIFIED="1660739753198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Problem_Sloving_CodeForces$CF128_D1_A.ic" NAME="CF128_D1_A Coverage Results" MODIFIED="1646207815023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF721_D2_C.ic" NAME="CF721_D2_C Coverage Results" MODIFIED="1662980536835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1542_D2_C.ic" NAME="CF1542_D2_C Coverage Results" MODIFIED="1665418191346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1183_D2_C.ic" NAME="CF1183_D2_C Coverage Results" MODIFIED="1621771937759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF349_D2_C.ic" NAME="CF349_D2_C Coverage Results" MODIFIED="1661582386010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF466_D2_C.ic" NAME="CF466_D2_C Coverage Results" MODIFIED="1660994781659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF1110_D2_C.ic" NAME="CF1110_D2_C Coverage Results" MODIFIED="1634621896660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF199_D2_C.ic" NAME="CF199_D2_C Coverage Results" MODIFIED="1661787423441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Junior_Sheet$CF1428_D2_B.ic" NAME="CF1428_D2_B Coverage Results" MODIFIED="1613025968649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Junior_Sheet$CF253_D2_C.ic" NAME="CF253_D2_C Coverage Results" MODIFIED="1655017367638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
