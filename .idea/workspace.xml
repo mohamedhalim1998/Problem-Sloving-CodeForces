@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd20c34-b8a9-4ea7-853c-b81e4cc490b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/D1A/CF191_D1_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CF187_D1_A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C/CF1623_D2_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C/CF1623_D2_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C/CF329_D2_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C/CF329_D2_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/CF1539_D2_D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/CF1539_D2_D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D/CF746_D2_D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D/CF746_D2_D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1A/CF204_D1_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1A/CF204_D1_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1A/CF763_D1_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1A/CF763_D1_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1B/CF1191_D1_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1B/CF1191_D1_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D1B/CF1753_D1_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D1B/CF1753_D1_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D3D/CF1272_D3_D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D3D/CF1272_D3_D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CF DIV 1 A" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +28,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ToolWindowVersion Control.ShowToolbar" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CF187_D1_A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="D1A.CF187_D1_A" />
+      <module name="Junior Sheet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CF187_D1_A" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674472791881</updated>
     </task>
+    <task id="LOCAL-00001" summary="UPDATE: 23/1/2023">
+      <created>1674474259158</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674474259158</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,14 +79,73 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UPDATE: 23/1/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE: 23/1/2023" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="106" width="753" height="831" key="CommitChangelistDialog2" timestamp="1674474184499">
+    <state x="698" y="350" width="735" height="586" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1674475212354">
       <screen x="0" y="32" width="1920" height="972" />
     </state>
-    <state x="578" y="106" width="753" height="831" key="CommitChangelistDialog2/0.32.1920.972@0.32.1920.972" timestamp="1674474184499" />
-    <state x="639" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1674474130745">
+    <state x="698" y="350" width="735" height="586" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.32.1920.972@0.32.1920.972" timestamp="1674475212354" />
+    <state x="578" y="106" width="753" height="831" key="CommitChangelistDialog2" timestamp="1674474258342">
       <screen x="0" y="32" width="1920" height="972" />
     </state>
-    <state x="639" y="345" key="com.intellij.ide.util.TipDialog/0.32.1920.972@0.32.1920.972" timestamp="1674474130745" />
+    <state x="578" y="106" width="753" height="831" key="CommitChangelistDialog2/0.32.1920.972@0.32.1920.972" timestamp="1674474258342" />
+    <state width="1874" height="307" key="GridCell.Tab.0.bottom" timestamp="1674476586316">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.0.bottom/0.32.1920.972@0.32.1920.972" timestamp="1674476586316" />
+    <state width="1874" height="307" key="GridCell.Tab.0.center" timestamp="1674476586315">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.0.center/0.32.1920.972@0.32.1920.972" timestamp="1674476586315" />
+    <state width="1874" height="307" key="GridCell.Tab.0.left" timestamp="1674476586314">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.0.left/0.32.1920.972@0.32.1920.972" timestamp="1674476586314" />
+    <state width="1874" height="307" key="GridCell.Tab.0.right" timestamp="1674476586316">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.0.right/0.32.1920.972@0.32.1920.972" timestamp="1674476586316" />
+    <state width="1874" height="307" key="GridCell.Tab.1.bottom" timestamp="1674476586318">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.1.bottom/0.32.1920.972@0.32.1920.972" timestamp="1674476586318" />
+    <state width="1874" height="307" key="GridCell.Tab.1.center" timestamp="1674476586317">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.1.center/0.32.1920.972@0.32.1920.972" timestamp="1674476586317" />
+    <state width="1874" height="307" key="GridCell.Tab.1.left" timestamp="1674476586317">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.1.left/0.32.1920.972@0.32.1920.972" timestamp="1674476586317" />
+    <state width="1874" height="307" key="GridCell.Tab.1.right" timestamp="1674476586317">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state width="1874" height="307" key="GridCell.Tab.1.right/0.32.1920.972@0.32.1920.972" timestamp="1674476586317" />
+    <state x="360" y="32" width="1125" height="912" key="SettingsEditor" timestamp="1674474368735">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state x="360" y="32" width="1125" height="912" key="SettingsEditor/0.32.1920.972@0.32.1920.972" timestamp="1674474368735" />
+    <state x="639" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1674476656904">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state x="639" y="345" key="com.intellij.ide.util.TipDialog/0.32.1920.972@0.32.1920.972" timestamp="1674476656904" />
+    <state x="623" y="244" key="search.everywhere.popup" timestamp="1674476172764">
+      <screen x="0" y="32" width="1920" height="972" />
+    </state>
+    <state x="623" y="244" key="search.everywhere.popup/0.32.1920.972@0.32.1920.972" timestamp="1674476172764" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CF187_D1_A.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
